@@ -254,7 +254,7 @@ namespace NLTD.EmployeePortal.LMS.Ux
             }
             if ((double)timesheet.LeaveDayQty == 0.5)
             {
-                calculatedWorkTime += new TimeSpan(4, 00, 00);
+                calculatedWorkTime += new TimeSpan(4, 30, 00);
             }
             if (timesheet.LeaveDayQty == 1)
             {
@@ -262,7 +262,7 @@ namespace NLTD.EmployeePortal.LMS.Ux
             }
             if ((double)(timesheet.WorkFromHomeDayQty) == 0.5)
             {
-                calculatedWorkTime += new TimeSpan(4, 00, 00);
+                calculatedWorkTime += new TimeSpan(4, 30, 00);
             }
             else if ((double)(timesheet.WorkFromHomeDayQty) == 1)
             {
